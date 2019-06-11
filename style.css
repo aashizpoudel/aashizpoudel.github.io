@@ -1,0 +1,52 @@
+
+body{
+	background-color: teal;
+	font-family: serif;
+
+
+}
+
+p{
+	font-family: serif;
+    color: yellow;
+    font-size:25px;
+}
+.size{
+	font-size: 35px;
+}
+.padding{
+	padding-top: 15px;
+	padding-left: 35px;
+}
+.padding1{
+	padding-top: 150px;
+	padding-left: 150px;
+}
+.color{
+	color:white;
+}
+	
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+.padding2{
+	padding-top: 2px;
+	padding-left: 150px;
+}
+
+.nav-item:hover{
+  
+  background-color:lightblue;
+  transition: 1s;
+}
+
+@media (min-width: 768px) { 
+  img.fullpic{
+    
+    min-height:100vh;
+  }
+ }
+
