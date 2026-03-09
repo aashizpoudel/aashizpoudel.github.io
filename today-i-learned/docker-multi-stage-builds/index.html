@@ -53,12 +53,21 @@
 
     <main class="site-main">
         <div class="container">
-            
-<div class="til-page">
+            <div class="til-page">
     <div class="til-entry" style="border-bottom: none;">
         <div class="til-date">2026-03-05</div>
         <h1>Docker Multi-Stage Builds for Python</h1>
-        <div class="til-tags" style="margin-top: 10px;"><span class="project-tag">docker</span> <span class="project-tag">python</span> <span class="project-tag">devops</span></div>
+        
+        <div class="til-tags" style="margin-top: 10px;">
+            
+            <span class="project-tag">docker</span>
+            
+            <span class="project-tag">python</span>
+            
+            <span class="project-tag">devops</span>
+            
+        </div>
+        
         <div style="margin-top: 20px;">
             <p>You can significantly reduce Docker image size for Python apps by using multi-stage builds. Build your dependencies in a builder stage with all build tools, then copy just the installed packages to a slim runtime image.</p>
 <pre><code class="language-dockerfile"># Builder stage
@@ -73,11 +82,10 @@ COPY . /app
 </code></pre>
         </div>
         <div style="margin-top: 40px;">
-            <a href="/today-i-learned/" class="btn btn-outline">&larr; Back to TILs</a>
+            <a href="/today-i-learned/" class="btn btn-outline">&larr; Back to Today I Learned</a>
         </div>
     </div>
 </div>
-        
         </div>
     </main>
 

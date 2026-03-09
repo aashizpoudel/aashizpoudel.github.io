@@ -53,12 +53,21 @@
 
     <main class="site-main">
         <div class="container">
-            
-<div class="til-page">
+            <div class="til-page">
     <div class="til-entry" style="border-bottom: none;">
         <div class="til-date">2026-03-03</div>
         <h1>PyTorch Inference on CPU with torch.no_grad()</h1>
-        <div class="til-tags" style="margin-top: 10px;"><span class="project-tag">python</span> <span class="project-tag">pytorch</span> <span class="project-tag">deep-learning</span></div>
+        
+        <div class="til-tags" style="margin-top: 10px;">
+            
+            <span class="project-tag">python</span>
+            
+            <span class="project-tag">pytorch</span>
+            
+            <span class="project-tag">deep-learning</span>
+            
+        </div>
+        
         <div style="margin-top: 20px;">
             <p>Always wrap inference code in <code>torch.no_grad()</code> context manager. It disables gradient computation and reduces memory consumption, which is important when deploying models on edge devices like Raspberry Pi.</p>
 <pre><code class="language-python">with torch.no_grad():
@@ -66,11 +75,10 @@
 </code></pre>
         </div>
         <div style="margin-top: 40px;">
-            <a href="/today-i-learned/" class="btn btn-outline">&larr; Back to TILs</a>
+            <a href="/today-i-learned/" class="btn btn-outline">&larr; Back to Today I Learned</a>
         </div>
     </div>
 </div>
-        
         </div>
     </main>
 
