@@ -12,7 +12,7 @@ A selection of my research and personal projects. More on [GitHub](https://githu
 Collection of computer vision implementations and experiments including image processing, object detection, and segmentation pipelines.
 `Jupyter Notebook` `Python` `Computer Vision`
 
-### [FPV Simulation](https://aashizpoudel.github.io/fpv-simulation){:target="_blank"} | [GitHub Repo](https://github.com/aashizpoudel/fpv-simulation){:target="_blank"}
+### [FPV Simulation](https://aashizpoudel.github.io/fpv-simulation){:target="_blank"} | [Demo](https://aashizpoudel.github.io/fpv-simulation){:target="_blank"} [GitHub](https://github.com/aashizpoudel/fpv-simulation){:target="_blank"}
 FPV drone simulation with physics, input handling, and rendering built in TypeScript/Vite.
 `TypeScript` `Vite` `Physics Simulation`
 
