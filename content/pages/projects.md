@@ -48,7 +48,3 @@ Comparison of different classification models for identifying unhealthy and heal
 ### [Covid 19 Information App](https://github.com/aashizpoudel/covidapp)
 Covid-19 information mobile application built during the lockdown period, providing pandemic-related information in the Nepali language.
 `Flutter` `Mobile App Development`
-
-### [Vocabulary Plus Chrome Extension](https://chrome.google.com/webstore/detail/vocabulary-plus/eapoanlgclghpfajjekikipeeapgomfa)
-A Google Chrome extension that allows users to search for the meaning of a word by selecting and right-clicking.
-`JavaScript` `Chrome Extension`
