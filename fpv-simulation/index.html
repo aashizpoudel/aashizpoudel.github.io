@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FPV Drone Simulator</title>
+      <script type="module" crossorigin src="/assets/index-CzxgFkvq.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-B4OpONPO.css">
+    </head>
+    <body>
+        <div id="renderingContainer"></div>
+
+        <!-- OSD Overlay -->
+        <div class="osd">
+            <!-- Top row -->
+            <span class="osd-el osd-top-left" id="flightMode">ACRO</span>
+            <span class="osd-el osd-top-center" id="altitude">4.1m</span>
+            <span class="osd-el osd-top-right" id="fps">60fps</span>
+
+            <!-- Left-center: speed -->
+            <div class="osd-el osd-left-center">
+                <div class="osd-label">SPD</div>
+                <div id="speed">0.0</div>
+            </div>
+
+            <!-- Right-center: throttle -->
+            <div class="osd-el osd-right-center">
+                <div class="osd-label">THR</div>
+                <div id="throttle">0%</div>
+                <div class="osd-throttle-bar">
+                    <div class="osd-throttle-fill" id="throttleBar"></div>
+                </div>
+            </div>
+
+            <!-- Center: crosshair + attitude -->
+            <div class="osd-center">
+                <div class="osd-attitude" id="attitudeWidget">
+                    <div class="osd-attitude-inner">
+                        <div class="osd-horizon-line"></div>
+                        <div class="osd-crosshair"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom-left: pitch/roll -->
+            <div class="osd-el osd-bottom-left">
+                <div>R:<span id="roll">0.0</span></div>
+                <div>P:<span id="pitch">0.0</span></div>
+            </div>
+
+            <!-- Bottom-right: g-force -->
+            <span class="osd-el osd-bottom-right" id="gforce">G:1.0g</span>
+
+            <!-- Bottom-center: position + arm status -->
+            <div class="osd-el osd-bottom-center">
+                <div id="armStatus">DISARMED</div>
+                <div id="position">0.0, 0.0, 0.0</div>
+            </div>
+        </div>
+
+        <!-- Camera feed (hidden, used by renderer) -->
+        <div id="cameraFeed" style="display:none;"></div>
+
+        <!-- Crash banner -->
+        <div class="status-banner" id="statusBanner">
+            CRASHED - Press R to Reset
+        </div>
+
+    </body>
+</html>
