@@ -1,0 +1,33 @@
+title: "Aashish Poudel"
+lang: "en"
+default_page: "home"
+footer_text: "© 2026 Aashish Poudel"
+social:
+  github: "https://github.com/aashizpoudel"
+  orcid: "https://orcid.org/0009-0001-2367-3342"
+
+pages:
+  - folder: "pages"
+    template: "base.html"
+
+dynamic:
+  - folder: "til"
+    title: "Today I Learned"
+    description: "A running log of small things I learn. Quick notes, tips, and snippets that I find useful."
+    slug: "today-i-learned"
+    templates:
+      base: "base.html"
+      listing: "listing.html"
+      entry: "entry.html"
+
+nav:
+  - name: Home
+    slug: home
+  - name: Today I Learned
+    slug: today-i-learned
+  - name: Publications
+    slug: publications
+  - name: Projects
+    slug: projects
+  - name: CV
+    url: /static/cv.pdf
