@@ -12,6 +12,10 @@ A selection of my research and personal projects. More on [GitHub](https://githu
 Collection of computer vision implementations and experiments including image processing, object detection, and segmentation pipelines.
 `Jupyter Notebook` `Python` `Computer Vision`
 
+### [FPV Simulation](https://github.com/aashizpoudel/fpv-simulation)
+FPV drone simulation with physics, input handling, and rendering built in TypeScript/Vite.
+`TypeScript` `Vite` `Physics Simulation`
+
 ### [React ROS Control Panel](https://github.com/aashizpoudel/react_ros_control_panel)
 A web-based control panel built with React for controlling ROS (Robot Operating System) robots. Provides real-time robot telemetry and control interface.
 `JavaScript` `React` `ROS`
