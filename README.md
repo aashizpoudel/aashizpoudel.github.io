@@ -43,7 +43,7 @@ Your content here...
 
 ## Generating the Site
 
-First, clone folio_gen if not already done:
+First, clone `folio_gen` beside this repository if it is not already there:
 
 ```bash
 git clone https://github.com/aashizpoudel/folio_gen.git ../folio_gen
@@ -53,19 +53,30 @@ Then generate the site:
 
 ```bash
 cd ../folio_gen
-python3 generate.py ../portfolio/content ../portfolio
+python3 generate.py \
+  ../aashizpoudel.github.io/content \
+  ../aashizpoudel.github.io
 ```
 
 This generates HTML from markdown and outputs to the portfolio root.
 
 ## Deploying
 
-After generating, commit and push:
+GitHub Actions builds and deploys the site whenever files under `content/`,
+`fpv-simulation/`, or the Pages workflow change on `main`. The workflow uses
+`folio_gen` to create a clean Pages artifact and then adds the independently
+built FPV simulation.
+
+For normal content changes, commit the source and push:
 
 ```bash
 git add .
 git commit -m "Update site content"
 git push
 ```
+
+The generated HTML in the repository root is retained for local compatibility,
+but GitHub Pages is deployed from the workflow artifact. The workflow can also
+be run manually from the repository's **Actions** tab.
 
 The site is hosted at: https://aashizpoudel.github.io
