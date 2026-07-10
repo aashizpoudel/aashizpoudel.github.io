@@ -8,6 +8,10 @@ keywords: "projects, GitHub, computer vision, robotics, deep learning, Aashish P
 
 A selection of my research and personal projects. More on [GitHub](https://github.com/aashizpoudel).
 
+### [Jetson IMX708 CUDA/WebRTC Camera Pipeline](https://github.com/aashizpoudel/jetson-imx708-webrtc)
+A headless camera pipeline for the Sony IMX708 on NVIDIA Jetson Orin Nano. It captures raw RG10 Bayer frames with V4L2, processes them through a persistent CUDA ISP, and streams low-latency 720p H.264 video over WebRTC. The pipeline includes automatic exposure, white balance, color correction, autofocus, and server-side MP4 recording.
+`Python` `CUDA` `Jetson` `Computer Vision` `WebRTC`
+
 ### [Computer Vision Codes](https://github.com/aashizpoudel/computer_vision_codes)
 Collection of computer vision implementations and experiments including image processing, object detection, and segmentation pipelines.
 `Jupyter Notebook` `Python` `Computer Vision`
