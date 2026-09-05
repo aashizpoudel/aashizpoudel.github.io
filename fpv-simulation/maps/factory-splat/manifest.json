@@ -1,0 +1,35 @@
+{
+  "source": "https://code.playcanvas.com/temp/factory/lod-meta.json",
+  "generatedAt": "2026-09-04T21:42:34.837Z",
+  "bounds": {
+    "min": [
+      -67.06923,
+      -31.69481,
+      -31.75432
+    ],
+    "max": [
+      56.08843,
+      51.59734,
+      29.12209
+    ]
+  },
+  "levels": [
+    {
+      "lod": 6,
+      "file": "./factory-lod6.ksplat",
+      "splatCount": 531552,
+      "bytes": 12792988
+    },
+    {
+      "lod": 5,
+      "file": "./factory-lod5.ksplat",
+      "splatCount": 1066636,
+      "bytes": 25659720
+    }
+  ],
+  "collision": {
+    "file": "./factory-collider.glb",
+    "bytes": 9567036,
+    "source": "https://playcanv.as/apps/b466da14/files/assets/284536691/1/Factory_collider.glb"
+  }
+}
